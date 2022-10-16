@@ -45,7 +45,7 @@ def topology(args):
     if '-p' not in args:
         net.plotGraph(max_x=160, max_y=160)
         
-        net.setMobilityModel(time=0, model="RandomDirection", max_x=160, max_y=160, seed=20)
+        net.setMobilityModel(time=0, model="RandomWayPoint", max_x=160, max_y=160, seed=20)
 
 
     info("*** Starting network\n")
